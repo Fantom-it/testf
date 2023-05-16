@@ -1,0 +1,29 @@
+.forecasts-main {
+  margin-left: 160px;
+  margin-top: -50px;
+}
+.fantom {
+  display: flex;
+  margin-top: 30px;
+}
+.tabs-content {
+  margin-left: 0;
+}
+.icon-forecast {
+  width: 130px;
+  height: 130px;
+  margin-top: 5px;
+  margin-left: -275px;
+  text-align: center;
+}
+.error-forec {
+  width: 1200px;
+  height: 80px;
+  border-radius: 10px;
+  background: #fff;
+}
+.error-forec__text {
+  padding: 30px 40px;
+  font-size: 22px;
+  color: rgba(212, 7, 7, 0.781);
+}

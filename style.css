@@ -1,0 +1,609 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  width: 100%;
+  background: rebeccapurple;
+}
+.body {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  width: 100%;
+  background: rebeccapurple;
+}
+
+.full-content {
+  background: red;
+  width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-content {
+  width: 1600px;
+  align-items: center;
+  background: yellowgreen;
+  margin: 0 auto;
+}
+
+.front-content {
+  position: absolute;
+  width: 370px;
+  margin-left: 1228px;
+  margin-top: 23px;
+}
+
+.banner-1 {
+  margin-top: 13px;
+}
+
+.form {
+  position: relative;
+}
+
+.form__input {
+  margin: 0;
+  width: 334px;
+  height: 24px;
+  border: none;
+  outline: none;
+  color: #000;
+  background: #d0d0d0;
+  border-radius: 10px;
+  padding: 18px 18px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.form__button {
+  position: absolute;
+  display: block;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: none;
+  background-image: url(../img/Search.svg);
+  width: 56px;
+  height: 40px;
+  right: 5px;
+  top: calc(50% - 28px);
+}
+
+.item__applications_bookmakers {
+  font-size: 28.5px;
+  padding: 0;
+  margin: 0;
+  margin-top: 122px;
+}
+
+.container-9 {
+  align-items: center;
+  width: 370px;
+  height: 320px;
+  margin-left: 0px;
+  margin-top: 47px;
+  background: #fff;
+}
+
+.banner-2 {
+  margin-left: 0px;
+  margin-top: 22px;
+}
+
+.item__recom {
+  font-size: 28.5px;
+  padding: 0;
+  margin: 0;
+  margin-top: 64px;
+}
+
+.container-11 {
+  width: 370px;
+  max-width: 370px;
+  height: 560px;
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  margin-top: 47px;
+}
+
+.banner-3 {
+  margin-left: 0px;
+  margin-top: 41px;
+}
+
+.header {
+  background: #ffffff;
+  width: 1920px;
+  width: 100%;
+  height: 125px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  display: block;
+  margin-left: 160px;
+  margin-top: 70px;
+  margin-bottom: 63px;
+  /*  width: 222px;
+    height: 37px;*/
+  background-repeat: no-repeat;
+}
+.header__logo2 {
+  position: absolute;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+.header__logo3 {
+  position: absolute;
+  margin-left: 8px;
+  margin-top: 3px;
+}
+
+.header__nav {
+}
+.header__list {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin-left: 2px;
+  margin-top: 36px;
+  gap: 20px;
+}
+.header__item {
+  font-size: 20px;
+}
+.header__link {
+  color: #000;
+  text-decoration: none;
+  padding: 1px;
+  margin: -1px;
+}
+.header__linkr {
+  color: #000;
+  text-decoration: none;
+  padding: 1px;
+  margin: -1px;
+  /* position: relative; */
+}
+/*svg {
+    fill:black;
+}
+svg:hover {
+    color: #19b849;
+} */
+
+.header__link:hover,
+.dropbtn:focus {
+  color: #fcc341;
+}
+.header__linkr:hover {
+  color: #fcc341;
+}
+.header__linkr:hover::after {
+}
+
+.dropdown {
+  color: #000;
+  /* position: relative;
+    display: inline-block; */
+  text-decoration: none;
+}
+.dropdownv2 {
+  color: #000;
+  /*position: relative;
+    display: inline-block; */
+  text-decoration: none;
+}
+.dropdownv3 {
+  color: #000;
+  /*position: relative;
+    display: inline-block; */
+  text-decoration: none;
+}
+
+/* Выпадающее содержимое (скрыто по умолчанию) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  margin-top: 5px;
+  min-width: 257px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdownv2-contentv2 {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  margin-top: 5px;
+  margin-left: 21.5px;
+  min-width: 70px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdownv3-contentv3 {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  margin-top: 5px;
+  margin-left: 11px;
+  min-width: 70px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  border-bottom: 1px solid #d3d0d085;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdownv2-contentv2 a {
+  color: black;
+  border-bottom: 1px solid #d3d0d085;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdownv3-contentv3 a {
+  color: black;
+  border-bottom: 1px solid #d3d0d085;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 500;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Изменение цвета выпадающих ссылок при наведении курсора */
+.dropdown-content a:hover {
+  color: #fcc341;
+}
+.dropdownv2-contentv2 a:hover {
+  color: #fcc341;
+}
+.dropdownv3-contentv3 a:hover {
+  color: #fcc341;
+}
+
+/*.show {display:block;} */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdownv2:hover .dropdownv2-contentv2 {
+  display: block;
+}
+.dropdownv3:hover .dropdownv3-contentv3 {
+  display: block;
+}
+
+.dropdown:hover {
+  padding: 5px;
+  margin: -5px;
+}
+.dropdownv2:hover {
+  padding: 5px;
+  margin: -5px;
+}
+.dropdownv3:hover {
+  padding: 5px;
+  margin: -5px;
+}
+
+.container-banner {
+  width: 1600px;
+  height: 75px;
+
+  margin-top: 13px;
+  display: flex;
+  align-items: center;
+  background: url(../img/banners/banner\ 1bannerv1.svg);
+}
+.container-banner__text {
+  color: #ffffff;
+  font-size: 36px;
+  margin-left: 714px;
+}
+
+.container2A {
+  display: flex;
+  text-align: center;
+}
+
+.container2 {
+  width: 1200px;
+  height: 110px;
+  margin-top: 23px;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+}
+.container2__text {
+  font-size: 30px;
+  margin-left: 29px;
+  display: flex;
+  align-items: center;
+}
+
+.container3 {
+  background: #ffffff;
+  width: 1200px;
+  height: 71px;
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
+}
+.container3__list {
+  display: flex;
+  list-style-type: none;
+  margin-left: 0px;
+  gap: 144px;
+}
+.container3__item {
+  font-size: 16px;
+}
+.container3__link {
+  color: #ea8d02;
+  text-decoration: none;
+}
+
+.container4 {
+  background: #ffffff;
+  width: 1200px;
+  height: 100px;
+  margin-top: 1px;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  border: 1px;
+  border-color: #000;
+}
+
+.container4__1xbet {
+  width: 170px;
+  height: 48px;
+  position: absolute;
+  margin-left: 30px;
+  background-image: url(../img/bookmakers/1xbet.svg);
+}
+.container4__olimp {
+  width: 170px;
+  height: 34px;
+  position: absolute;
+  margin-left: 30px;
+  background: url(../img/bookmakers/olimpbet.svg);
+}
+.container4__fonbet {
+  width: 170px;
+  height: 31px;
+  position: absolute;
+  margin-left: 30px;
+  background: url(../img/bookmakers/fonbet.svg);
+}
+.container4__pari {
+  width: 170px;
+  height: 58px;
+  position: absolute;
+  margin-left: 30px;
+  background: url(../img/bookmakers/pari_match.svg);
+}
+.container4__stavka {
+  width: 170px;
+  height: 82px;
+  position: absolute;
+  margin-left: 30px;
+  background: url(../img/bookmakers/1xctabka.svg);
+}
+.container4__leon {
+  width: 170px;
+  height: 42.75px;
+  position: absolute;
+  margin-left: 30px;
+  background: url(../img/bookmakers/leon.svg);
+}
+.container4__ggbet {
+  width: 210px;
+  height: 40px;
+  position: absolute;
+  margin-left: 15px;
+  background: url(../img/bookmakers/ggbet.png);
+}
+.container4__betcity {
+  width: 170px;
+  height: 26.49px;
+  position: absolute;
+  margin-left: 30px;
+  background: url(../img/bookmakers/betcity.png);
+}
+.container4__mostbet {
+  width: 170px;
+  height: 27.27px;
+  position: absolute;
+  margin-left: 30px;
+  background: url(../img/bookmakers/mostbet.png);
+}
+.container4__melbet {
+  width: 170px;
+  height: 28.49px;
+  position: absolute;
+  margin-left: 30px;
+  background: url(../img/bookmakers/melbet.png);
+}
+.container4__winline {
+  width: 170px;
+  height: 40.79px;
+  position: absolute;
+  margin-left: 30px;
+  background: url(../img/bookmakers/winline.png);
+}
+.container4__marafonbet {
+  width: 170px;
+  height: 58px;
+  position: absolute;
+  margin-left: 30px;
+  background: url(../img/bookmakers/marafonbet.png);
+}
+.container4__bwin {
+  width: 170px;
+  height: 56.67px;
+  position: absolute;
+  margin-left: 30px;
+  background: url(../img/bookmakers/bwin.png);
+}
+
+.container4__img2 {
+  width: 115px;
+  height: 20px;
+  margin-left: 250px;
+}
+.container4__item1 {
+  margin-left: 11px;
+}
+.container4__item2 {
+  margin-left: 53px;
+}
+.container4__img3 {
+  /* width: 30px;
+    height: 42px; */
+  margin-left: 91px;
+}
+
+.container4__item3 {
+  color: #ffffff;
+  padding: 13px 58px;
+  margin-left: 85px;
+  background: #000;
+  border-radius: 3px;
+}
+.container4__item4 {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 13px 66px;
+  margin-left: 28px;
+  background: #fcc341;
+  border-radius: 3px;
+}
+.container4_item3_item4 {
+  position: absolute;
+}
+
+video {
+  position: absolute;
+  width: 500px;
+  height: 300px;
+  margin-left: 1385px;
+  margin-top: -800px;
+}
+
+/* Restoring the browser effects */
+
+/* Applying all of the same
+functionalities to the body */
+
+h1 {
+  color: rgb(0, 255, 115);
+  margin-right: 2em;
+}
+
+.main_box {
+  width: 15em;
+  height: 15em;
+  position: relative;
+  cursor: pointer;
+}
+
+.img,
+.main_box::before {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/categories/icons8-футбольный-мяч-50\ 1.svg);
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Changing the image to gray color */
+.img {
+  filter: grayscale(100%);
+}
+
+/* Code for drop of color */
+.main_box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  clip-path: circle(0 at 50% 0);
+  transition: all 0.3s;
+  z-index: 1;
+}
+
+.main_box::after {
+  content: "";
+  position: absolute;
+  top: -6em;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1.25em;
+  height: 1.25em;
+  background-image: red;
+
+  border-radius: 0 10em 10em 10em;
+  opacity: 0;
+  transform: rotate(45deg);
+}
+
+.main_box:hover::after {
+  animation: neeche 0.5s cubic-bezier(1, 0, 1, 0.81);
+}
+
+.main_box:hover::before {
+  clip-path: circle(31em at 50% 0);
+  transition-delay: 0.5s;
+}
+
+@keyframes neeche {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    top: 6em;
+  }
+}
+
+/*@media (max-width: 1000px) {
+  .container4 {
+    background: #ffffff;
+    width: 500px;
+    height: 100px;
+    margin-left: 160px;
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header {
+  }
+} */
+
+.image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+@media (width < 320px) {
+}
